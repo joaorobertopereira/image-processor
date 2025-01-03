@@ -1,0 +1,9 @@
+C:\dev\Officecom\Projetos\ImageBatchProcessor\src\image-processor\src\main\java\bet\logame\app\Application.java
+C:\dev\Officecom\Projetos\ImageBatchProcessor\src\image-processor\src\main\java\bet\logame\app\config\AppConfig.java
+C:\dev\Officecom\Projetos\ImageBatchProcessor\src\image-processor\src\main\java\bet\logame\app\config\BatchConfig.java
+C:\dev\Officecom\Projetos\ImageBatchProcessor\src\image-processor\src\main\java\bet\logame\app\model\SisCassinoJogo.java
+C:\dev\Officecom\Projetos\ImageBatchProcessor\src\image-processor\src\main\java\bet\logame\app\processor\ImageFileProcessor.java
+C:\dev\Officecom\Projetos\ImageBatchProcessor\src\image-processor\src\main\java\bet\logame\app\reader\DirectoryItemReader.java
+C:\dev\Officecom\Projetos\ImageBatchProcessor\src\image-processor\src\main\java\bet\logame\app\repository\SisCassinoJogoRepository.java
+C:\dev\Officecom\Projetos\ImageBatchProcessor\src\image-processor\src\main\java\bet\logame\app\utils\FileNameGenerator.java
+C:\dev\Officecom\Projetos\ImageBatchProcessor\src\image-processor\src\main\java\bet\logame\app\writer\ImageFileWriter.java

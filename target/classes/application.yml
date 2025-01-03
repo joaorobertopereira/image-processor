@@ -1,6 +1,10 @@
 spring:
   application:
     name: image-processor
+  batch:
+    initialize-schema: always
+    job:
+      enabled: true
   datasource:
     url: jdbc:mysql://mysql.local:3306/logame-api
     username: root
@@ -15,8 +19,21 @@ spring:
       connection-timeout: 30000
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
     show-sql: true
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
+
+upload:
+  base-url: https://lr08x848qha5.objectstorage.sa-saopaulo-1.oci.customer-oci.com/p/i48CYVpGJG5MFIOxIkTWvLw3O1i9FlP-Hz5s9y1PpmKX5MAQxAuFC8R8vof1ROu0/n/lr08x848qha5/b/logame-api-images/o/
+  download-url-base: https://lr08x848qha5.objectstorage.sa-saopaulo-1.oci.customer-oci.com/p/mSvQH4TctRSaYT-9jzWZAJ-eUYw3NdUhY4JE49KoQqkRjFXlIq5gRSEfPQepvJRq/n/lr08x848qha5/b/logame-api-images/o/
+  default-folder: Casino/Games
+
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        batch: DEBUG    

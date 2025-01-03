@@ -1,0 +1,11 @@
+bet\logame\app\processor\ImageFileProcessor.class
+bet\logame\app\utils\FileNameGenerator.class
+bet\logame\app\Application.class
+bet\logame\app\config\BatchConfig.class
+bet\logame\app\config\BatchConfig$1.class
+bet\logame\app\reader\DirectoryItemReader.class
+bet\logame\app\config\AppConfig.class
+bet\logame\app\model\SisCassinoJogo$SisCassinoJogoBuilder.class
+bet\logame\app\writer\ImageFileWriter.class
+bet\logame\app\repository\SisCassinoJogoRepository.class
+bet\logame\app\model\SisCassinoJogo.class

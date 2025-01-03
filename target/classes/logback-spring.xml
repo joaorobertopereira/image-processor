@@ -10,8 +10,7 @@
                         {
                         "timestamp": "%date{ISO8601}",
                         "level": "%level",
-                        "message": "%msg",
-                        "exception": "%ex"
+                        "message": "%msg"
                         }
                     </pattern>
                 </pattern>
